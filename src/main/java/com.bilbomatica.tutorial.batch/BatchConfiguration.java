@@ -1,16 +1,15 @@
 package com.bilbomatica.tutorial.batch;
 
-import javax.sql.DataSource;
-
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBObject;
+import org.bson.BSONObject;
 import org.springframework.batch.core.Job;
-import org.springframework.batch.core.JobExecutionListener;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
-import org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider;
-import org.springframework.batch.item.database.JdbcBatchItemWriter;
+import org.springframework.batch.item.data.MongoItemWriter;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.mapping.BeanWrapperFieldSetMapper;
 import org.springframework.batch.item.file.mapping.DefaultLineMapper;
@@ -19,22 +18,29 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.data.mongodb.core.MongoOperations;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+import java.util.Map;
+import java.util.Set;
 
 @Configuration
 @EnableBatchProcessing
 public class BatchConfiguration {
 
     @Autowired
-    public JobBuilderFactory jobBuilderFactory;
+    private JobBuilderFactory jobBuilderFactory;
 
     @Autowired
-    public StepBuilderFactory stepBuilderFactory;
+    private StepBuilderFactory stepBuilderFactory;
 
     @Autowired
-    public DataSource dataSource;
+    private MongoTemplate mongoTemplate;
 
-    // tag::readerwriterprocessor[]
+    public static int PRETTY_PRINT_INDENT_FACTOR = 4;
+
+    private String dinamicSlash = "//";
+
     @Bean
     public FlatFileItemReader<Person> reader() {
         FlatFileItemReader<Person> reader = new FlatFileItemReader<Person>();
@@ -56,11 +62,21 @@ public class BatchConfiguration {
     }
 
     @Bean
-    public JdbcBatchItemWriter<Person> writer() {
-        JdbcBatchItemWriter<Person> writer = new JdbcBatchItemWriter<Person>();
-        writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
-        writer.setSql("INSERT INTO people (first_name, last_name) VALUES (:firstName, :lastName)");
-        writer.setDataSource(dataSource);
+    public MongoItemWriter<Person> writer() {
+        //JdbcBatchItemWriter<Person> writer = new JdbcBatchItemWriter<Person>();
+        MongoItemWriter<Person> writer = new MongoItemWriter<Person>();
+        writer.setCollection("personas");
+        //MongoOperations mongoOperations =  new MongoOperations() ;
+        //Person person = new Person("prueba", "de concepto");
+        DBObject person = new BasicDBObject();
+
+        //mongoOperations.save(person);
+
+
+        //writer.setItemSqlParameterSourceProvider(new BeanPropertyItemSqlParameterSourceProvider<Person>());
+        //writer.setSql("INSERT INTO people (first_name, last_name) VALUES (:firstName, :lastName)");
+        //writer.setDataSource(dataSource);
+
         return writer;
     }
     // end::readerwriterprocessor[]
