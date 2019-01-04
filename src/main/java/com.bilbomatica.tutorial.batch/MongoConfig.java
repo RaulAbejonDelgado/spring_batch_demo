@@ -48,4 +48,16 @@ public class MongoConfig {
         mongoTemplate = new MongoTemplate(mongoDbFactory(), converter);
         return mongoTemplate;
     }
+
+//    @Bean
+//    public MongoDbFactory mongoDbFactory() throws Exception {
+//        return new SimpleMongoDbFactory(new MongoClient(), "db-name");
+//    }
+//
+//    @Bean
+//    public MongoTemplate mongoTemplate() throws Exception {
+//        MongoTemplate mongoTemplate = new MongoTemplate();
+//        return mongoTemplate;
+//    }
+
 }

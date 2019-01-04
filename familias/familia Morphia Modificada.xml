@@ -1,0 +1,23 @@
+<Family>
+  <_id>5c29f97fa4033c513f32bf0f</_id>
+  <selfId>11</selfId>
+  <nombre>familia Morphia Modificada</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>12</selfId>
+      <familyId>11</familyId>
+      <nombre>enhord y mi cipote2</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1546254719</timestamp>
+    <machineIdentifier>10748732</machineIdentifier>
+    <processIdentifier>20799</processIdentifier>
+    <counter>3325711</counter>
+    <time>1546254719000</time>
+    <date>1546254719000</date>
+    <timeSecond>1546254719</timeSecond>
+  </id>
+</Family>

@@ -1,0 +1,23 @@
+<Family>
+  <_id>5c2a572ca4033c10d5970410</_id>
+  <selfId>12</selfId>
+  <nombre>familia drohne4</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>9</selfId>
+      <familyId>12</familyId>
+      <nombre>drohne</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1546278700</timestamp>
+    <machineIdentifier>10748732</machineIdentifier>
+    <processIdentifier>4309</processIdentifier>
+    <counter>9896976</counter>
+    <time>1546278700000</time>
+    <date>1546278700000</date>
+    <timeSecond>1546278700</timeSecond>
+  </id>
+</Family>

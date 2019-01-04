@@ -1,0 +1,47 @@
+<Comment>
+  <_id>5c2a125588be6e2a12d625a0</_id>
+  <familia>
+    <familia>
+      <_id>5c23ad0ffae44e51fe620f2b</_id>
+      <selfId>1</selfId>
+      <nombre>familia AsierRaul</nombre>
+      <id>
+        <timestamp>1545841935</timestamp>
+        <machineIdentifier>16442446</machineIdentifier>
+        <processIdentifier>20990</processIdentifier>
+        <counter>6426411</counter>
+        <time>1545841935000</time>
+        <date>1545841935000</date>
+        <timeSecond>1545841935</timeSecond>
+      </id>
+    </familia>
+  </familia>
+  <texto>Reformulando la extructura</texto>
+  <persona>
+    <persona>
+      <_id>5c24fb0463807b075537a8b4</_id>
+      <selfId>21</selfId>
+      <familyId>1</familyId>
+      <nombre>Asier</nombre>
+      <id>
+        <timestamp>1545927428</timestamp>
+        <machineIdentifier>6520955</machineIdentifier>
+        <processIdentifier>1877</processIdentifier>
+        <counter>3647668</counter>
+        <time>1545927428000</time>
+        <date>1545927428000</date>
+        <timeSecond>1545927428</timeSecond>
+      </id>
+    </persona>
+  </persona>
+  <selfId>1</selfId>
+  <id>
+    <timestamp>1546261077</timestamp>
+    <machineIdentifier>8961646</machineIdentifier>
+    <processIdentifier>10770</processIdentifier>
+    <counter>14034336</counter>
+    <time>1546261077000</time>
+    <date>1546261077000</date>
+    <timeSecond>1546261077</timeSecond>
+  </id>
+</Comment>

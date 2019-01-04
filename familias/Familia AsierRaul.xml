@@ -1,0 +1,30 @@
+<Family>
+  <_id>5c23ad0ffae44e51fe620f2b</_id>
+  <selfId>1</selfId>
+  <nombre>Familia AsierRaul</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>1</selfId>
+      <familyId>1</familyId>
+      <nombre>Raul</nombre>
+      <id/>
+    </personas>
+    <personas>
+      <_id/>
+      <selfId>2</selfId>
+      <familyId>1</familyId>
+      <nombre>Asier</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1545841935</timestamp>
+    <machineIdentifier>16442446</machineIdentifier>
+    <processIdentifier>20990</processIdentifier>
+    <counter>6426411</counter>
+    <time>1545841935000</time>
+    <date>1545841935000</date>
+    <timeSecond>1545841935</timeSecond>
+  </id>
+</Family>

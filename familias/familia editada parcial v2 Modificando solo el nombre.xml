@@ -1,0 +1,30 @@
+<Family>
+  <_id>5c23e4a463807b071ba5d135</_id>
+  <selfId>7</selfId>
+  <nombre>familia editada parcial v2 Modificando solo el nombre</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>9</selfId>
+      <familyId>7</familyId>
+      <nombre>drohne</nombre>
+      <id/>
+    </personas>
+    <personas>
+      <_id/>
+      <selfId>8</selfId>
+      <familyId>7</familyId>
+      <nombre>Luis</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1545856164</timestamp>
+    <machineIdentifier>6520955</machineIdentifier>
+    <processIdentifier>1819</processIdentifier>
+    <counter>10866997</counter>
+    <time>1545856164000</time>
+    <date>1545856164000</date>
+    <timeSecond>1545856164</timeSecond>
+  </id>
+</Family>

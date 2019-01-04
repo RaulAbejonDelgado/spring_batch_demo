@@ -1,0 +1,23 @@
+<Family>
+  <_id>5c23aa1963807b4b5c61c3f1</_id>
+  <selfId>4</selfId>
+  <nombre>familia Luis contra el mundo</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>8</selfId>
+      <familyId>3</familyId>
+      <nombre>luis</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1545841177</timestamp>
+    <machineIdentifier>6520955</machineIdentifier>
+    <processIdentifier>19292</processIdentifier>
+    <counter>6407153</counter>
+    <time>1545841177000</time>
+    <date>1545841177000</date>
+    <timeSecond>1545841177</timeSecond>
+  </id>
+</Family>

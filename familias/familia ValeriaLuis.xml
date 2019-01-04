@@ -1,0 +1,30 @@
+<Family>
+  <_id>5c251bd263807b1fda58458c</_id>
+  <selfId>2</selfId>
+  <nombre>familia ValeriaLuis</nombre>
+  <personas>
+    <personas>
+      <_id/>
+      <selfId>4</selfId>
+      <familyId>2</familyId>
+      <nombre>valeria</nombre>
+      <id/>
+    </personas>
+    <personas>
+      <_id/>
+      <selfId>3</selfId>
+      <familyId>2</familyId>
+      <nombre>Luis</nombre>
+      <id/>
+    </personas>
+  </personas>
+  <id>
+    <timestamp>1545935826</timestamp>
+    <machineIdentifier>6520955</machineIdentifier>
+    <processIdentifier>8154</processIdentifier>
+    <counter>5784972</counter>
+    <time>1545935826000</time>
+    <date>1545935826000</date>
+    <timeSecond>1545935826</timeSecond>
+  </id>
+</Family>

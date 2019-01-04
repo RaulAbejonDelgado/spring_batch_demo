@@ -1,0 +1,31 @@
+<Comment>
+  <_id>5c2a2cfaa4033c6e2f0ba7a0</_id>
+  <familia>
+    <familia>
+      <_id/>
+      <selfId>1</selfId>
+      <nombre>familia AsierRaul</nombre>
+      <id/>
+    </familia>
+  </familia>
+  <texto>Editando el comentario</texto>
+  <persona>
+    <persona>
+      <_id/>
+      <selfId>1</selfId>
+      <familyId>1</familyId>
+      <nombre>Raul</nombre>
+      <id/>
+    </persona>
+  </persona>
+  <selfId>0</selfId>
+  <id>
+    <timestamp>1546267898</timestamp>
+    <machineIdentifier>10748732</machineIdentifier>
+    <processIdentifier>28207</processIdentifier>
+    <counter>763808</counter>
+    <time>1546267898000</time>
+    <date>1546267898000</date>
+    <timeSecond>1546267898</timeSecond>
+  </id>
+</Comment>
